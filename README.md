@@ -2,13 +2,13 @@
 This is a machine learning model of a movie recommendation system which recommends movies based on the movie that you have entered.
 
 # Language and Libraries
--Python
--Pandas
--Numpy
--Matplotlib
--Sklearn
+- Python
+- Pandas
+- Numpy
+- Matplotlib
+- Sklearn
 
-#Features
+# Features
 -Recommends movies based on user input.
 -Allows user to enter a movie title to get recommendations.
 -Displays a list of recommended movies.
