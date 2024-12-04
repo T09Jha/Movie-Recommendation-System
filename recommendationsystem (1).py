@@ -40,11 +40,6 @@ from sklearn.metrics.pairwise import cosine_similarity, linear_kernel
 cosine_sim = linear_kernel(tfidf_matrix, tfidf_matrix)
 sim=cosine_similarity(tfidf_matrix)
 
-"""The below code is executed to check if the value is tested along to be the same lines as cosine similarity and linear kernel
-
-as the block executes it asserts that the values are close in both the cases
-"""
-
 np.testing.assert_allclose(cosine_sim, sim, rtol=1e-5, atol=1e-8)
 
 cosine_sim
